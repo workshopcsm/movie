@@ -83,21 +83,4 @@ public class Cal extends Applet implements ActionListener
         OP='%';
         t1.setText("");
     }
-        if(str.equals("EQ"))
-        {
-            v2=Integer.parseInt(t1.getText());
-            if(OP=='+')
-                result=v1+v2; else if(OP=='-')
-                result=v1-v2; else if(OP=='*')
-                result=v1*v2; else if(OP=='/')
-                result=v1/v2; else if(OP=='%')
-                result=v1%v2;
-            t1.setText(""+result);
-
-        }
-        if(str.equals("clear"))
-        {
-            t1.setText("");
-        }
-    }
-}
+       
